@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html> <head>
+<title>Riak Client</title>
+<meta charset="utf-8" />
+<link rel="stylesheet" href="css/main.css" type="text/css"/>
+<script type="text/javascript"
+src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+<script type="text/javascript" src="javascript/main.js"></script>
+</head>
+
+<body>
+<div id="connector" class="pane">
+  <h2>Connection details:</h2>
+  <div>
+    Server host: <input id="host" type="text" value="localhost"/>
+  </div>
+  <div>
+    Server port: <input id="port" type="text" value="8081"/>
+  </div>
+  <div>
+    <input type="button" id="connect" value="Connect"/>
+  </div>
+</div>
+<div id="bucket_pane" class="pane tripane">
+  <h2>Buckets:</h2>
+  <ul>
+  </ul>
+</div>
+<div id="key_pane" class="pane tripane">
+  <h2>Keys:</h2>
+  <ul>
+  </ul>
+</div>
+<div id="value_pane" class="pane tripane">
+  <h2>Value:</h2>
+  <div id="value_content"></div>
+</div>
+
+</body>
+</html>

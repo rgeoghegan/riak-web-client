@@ -1,0 +1,19 @@
+.pane {
+    border: solid black 1px;
+    padding: 10px;
+}
+
+.tripane {
+    float: left;
+    width: 30%;
+}
+
+.tripane ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.selected-elem {
+    background-color: #aaa;
+}

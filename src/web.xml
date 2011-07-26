@@ -1,0 +1,29 @@
+<web-app>
+  <!-- Servlet class taken from first :aot namespace -->
+  <servlet>
+     <servlet-name>list-buckets</servlet-name>
+     <servlet-class>riak-client.servlet.ListBuckets</servlet-class>
+  </servlet>
+  <servlet>
+     <servlet-name>list-keys</servlet-name>
+     <servlet-class>riak-client.servlet.ListKeys</servlet-class>
+  </servlet>
+  <servlet>
+     <servlet-name>show-value</servlet-name>
+     <servlet-class>riak-client.servlet.ShowValue</servlet-class>
+  </servlet>
+
+  <!-- Servlet is mapped to / by default  -->
+  <servlet-mapping>
+     <servlet-name>list-buckets</servlet-name>
+     <url-pattern>/list-buckets</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+     <servlet-name>list-keys</servlet-name>
+     <url-pattern>/list-keys</url-pattern>
+  </servlet-mapping>
+ <servlet-mapping>
+     <servlet-name>show-value</servlet-name>
+     <url-pattern>/show-value</url-pattern>
+  </servlet-mapping>
+</web-app>
