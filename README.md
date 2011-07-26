@@ -1,4 +1,4 @@
-# riak-client
+# riak-web-client
 
 Web app to browse a Riak database.
 
