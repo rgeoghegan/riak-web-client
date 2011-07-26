@@ -6,11 +6,11 @@ Web app to browse a Riak database.
 
 If you are on mac os x, get homebrew, and use it to install clojure and jetty. Type the following to get the dependencies:
 
-lein deps
+    lein deps
 
 Then type the following to create the deplot/ROOT.war file:
 
-lein uberwar
+    lein uberwar
 
 Use the run.sh and the web-app.clj script to run the web-app using Jetty and Homebrew. Otherwise, serve up the war file
 any way you see fit.
