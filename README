@@ -12,7 +12,8 @@ Then type the following to create the deplot/ROOT.war file:
 
 lein uberwar
 
-Use the run.sh and the web-app.clj script to run the web-app.
+Use the run.sh and the web-app.clj script to run the web-app using Jetty and Homebrew. Otherwise, serve up the war file
+any way you see fit.
 
 ## License
 
